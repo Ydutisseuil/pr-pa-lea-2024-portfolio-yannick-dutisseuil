@@ -1,0 +1,32 @@
+/* Style pour le "hero header" */
+.hero-header {
+    background-image: url('../images/developpeur-web.jpg'); /* Image de fond pour le hero header */
+    background-size: cover; /* Assure que l'image de fond couvre tout le header */
+    background-position: center; /* Centre l'image de fond */
+    height: 100vh; /* Hauteur de 100% de la fenêtre */
+    width: 100%; /* Largeur de 100% de la fenêtre */
+    color: white; /* Couleur du texte en blanc */
+    display: flex; /* Utilise flexbox pour centrer le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    justify-content: center; /* Centre horizontalement le contenu */
+    text-align: center; /* Centre le texte */
+    position: relative; /* Positionne le header de manière relative */
+}
+
+/* Style pour le contenu du hero header */
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent noir */
+    padding: 20px; /* Ajoute un remplissage interne */
+    border-radius: 10px; /* Arrondit les coins du fond */
+}
+
+/* Style pour le titre principal du hero header */
+.hero-header h1 {
+    font-size: 4em; /* Taille de la police très grande pour le titre principal */
+    margin: 0; /* Enlève les marges par défaut */
+}
+
+/* Style pour le paragraphe du hero header */
+.hero-header p {
+    font-size: 1.5em; /* Taille de la police augmentée pour le paragraphe */
+}

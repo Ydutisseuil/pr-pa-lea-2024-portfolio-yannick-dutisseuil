@@ -1,0 +1,35 @@
+/* Style de base pour la navigation */
+.nav {
+    background-color: #333333;/* Couleur de fond */
+    padding: 10px 0;/* Rembourrage (padding) pour l'espace autour du contenu */
+    text-align: center; /* Alignement du texte au centre */
+}
+.nav .logo-container {
+    text-align: center; /* Centre le contenu du conteneur du logo */
+    margin-bottom: 10px; /* Espace entre le logo et les liens de navigation */
+}
+.nav ul {
+    list-style-type: none;/* Supprimer les puces des listes */
+    /*text-align: center;/* Alignement du texte au centre */
+    padding: 0; /* Enlever le padding par défaut */
+    margin: 0; /* Enlever la marge par défaut */
+}
+.nav ul li {
+   /* display: inline;/* Affichage en ligne pour les éléments de liste */
+   display: inline-block; /* Affichage en bloc en ligne pour les éléments de liste */
+   margin: 0 10px; /* Marges entre les éléments de liste */
+}
+.nav ul li a {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer la décoration de lien par défaut */
+    padding: 10px 20px; /* Rembourrage (padding) pour l'espace autour du texte */
+    display: inline-block; /* Affichage en bloc pour les éléments de lien */
+    transition: all 0.3s ease;/* Effet de transition pour le survol */
+    font-size: 20px;/* taille de police texte nav */
+}
+/* style boutton accueil dans nav bar */
+.nav ul li a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+
