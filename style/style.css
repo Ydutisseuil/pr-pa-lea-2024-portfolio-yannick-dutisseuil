@@ -31,5 +31,25 @@
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
 }
+footer{
+    background-color: #333333;/* Couleur de fond */
+    padding: 10px 0;/* Rembourrage (padding) pour l'espace autour du contenu */
+}
+footer ul li a, li, p{
+    color: #fff;
+}
+footer ul{
+    width: 5%;
+    float: right;
+}
+footer p{
+    text-align: center; /* Centre le contenu du conteneur du paragraphe */
+}
+a {
+    color: #fff;
+}
+
+
+
 
 
