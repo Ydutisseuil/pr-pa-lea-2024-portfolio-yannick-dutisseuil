@@ -38,7 +38,10 @@
 .formulaire-container input[type="submit"]:hover {
     background-color: #555;
 }
+.background-image{
+    background-image: url("../images/contact.jpg");
 
+}
 
 
 
