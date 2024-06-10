@@ -1,0 +1,47 @@
+.formulaire-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.formulaire-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulaire-container label {
+    font-weight: bold;
+}
+
+.formulaire-container input, .formulaire-container textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulaire-container input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulaire-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
