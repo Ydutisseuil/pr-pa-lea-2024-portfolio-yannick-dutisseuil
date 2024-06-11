@@ -77,7 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="submit" value="Envoyer">
         </form>
     </section>
-    <section>
+    <section class="adresse">
         <div class="liste_adresse">
             <p class="mon-adresse">
                 <lu>

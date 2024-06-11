@@ -39,12 +39,16 @@
     background-color: #555;
 }
 .background-image{
-    background-image: url("../images/contact.jpg");
-
+    background-image: url("../images/code-formulaire.jpg");
+    background-size: cover; /* Assure que l'image de fond couvre tout le header */
+    background-position: center; /* Centre l'image de fond */
+    height: 100vh; /* Hauteur de 100% de la fenêtre */
+    width: 100%; /* Largeur de 100% de la fenêtre */
 }
-
-
-
+.adresse{
+    list-style: none;
+   
+}
 
 
 

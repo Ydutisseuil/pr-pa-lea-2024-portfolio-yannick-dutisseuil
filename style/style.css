@@ -41,12 +41,14 @@ footer ul li a, li, p{
 footer ul{
     width: 5%;
     float: right;
+    list-style: none;
 }
 footer p{
     text-align: center; /* Centre le contenu du conteneur du paragraphe */
 }
 a {
     color: #fff;
+    list-style: none;
 }
 
 
