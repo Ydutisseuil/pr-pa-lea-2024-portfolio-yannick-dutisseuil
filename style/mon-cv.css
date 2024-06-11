@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+h3 {
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.texte-competences {
+    background-color: red;
+    font-size: 20px;
+    width: 25%;
+    color: black;
+    text-align:left;
+    border-radius: 5%;
+    padding: 10px;
+   /* height: 200px;
+    display: flex;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
