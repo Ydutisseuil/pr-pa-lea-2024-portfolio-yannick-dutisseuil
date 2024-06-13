@@ -1,3 +1,10 @@
+.background-bulle{
+    background-image: url("../images/bulle.jpg");
+    background-size: cover; /* Assure que l'image de fond couvre tout le header */
+    background-position: center; /* Centre l'image de fond */
+    height: 100vh; /* Hauteur de 100% de la fenêtre */
+    width: 100%; /* Largeur de 100% de la fenêtre */
+}
 h1 {
     text-align: center;
     font-size: 35px;
@@ -7,35 +14,76 @@ h2 {
     font-size: 25px;
 }
 h3 {
-    float: left;
+    
     text-align: center;
     font-size: 25px;
     
 }
 .texte-competences {
-    background-color: red;
+    background-color: rgb(255, 102, 0);
     font-size: 20px;
-    width: 25%;
+    width: 60%;
     color: black;
+    padding: 60px;
+    align-content: center;
+    height: 40%;
+    margin: auto;
+    /*display: flex;*/
+}
+.texte-parcour{
+    text-align: center;
+    color: black;
+    font-size: 15px;
     text-align:left;
-    border-radius: 5%;
+    width: 30%;
+}
+.paragraphe-parcour{
+    background-color: aqua;
+    width: 65%;
     padding: 10px;
-   /* height: 200px;
-    display: flex;*/
+    margin: auto;
+}
+p.texte-parcour{
+    color: black;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+h3.competences{
+    width: 100%;
+}
+p.ul,li{
+    color: black;
+}
+p.texte-formation{
+    color: black;
+    width: 60%;
+    height: 35%;
+    margin: auto;
+    text-align: center;
+}
+.paragraphe-formation{
+    background-color: pink;
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+}
+.paragraphe-qualites{
+    background-color: greenyellow;
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+}
+.paragraphe-loisirs{
+    background-color: aquamarine;
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+}
+.bloc-loisirs{
+    padding: 25px;
+}
 
 
 
