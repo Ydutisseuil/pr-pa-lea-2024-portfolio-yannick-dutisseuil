@@ -37,14 +37,17 @@ footer{
 }
 footer ul li a, li, p{
     color: #fff;
+    margin: 0;
 }
 footer ul{
     width: 5%;
     float: right;
     list-style: none;
+    margin: 5px;
 }
 footer p{
     text-align: center; /* Centre le contenu du conteneur du paragraphe */
+    
 }
 a {
     color: #fff;

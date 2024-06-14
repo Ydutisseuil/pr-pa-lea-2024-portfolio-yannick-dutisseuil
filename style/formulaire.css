@@ -44,10 +44,16 @@
     background-position: center; /* Centre l'image de fond */
     height: 100vh; /* Hauteur de 100% de la fenêtre */
     width: 100%; /* Largeur de 100% de la fenêtre */
+    margin: auto;
 }
 .adresse{
     list-style: none;
-   
+    background-color:grey;
+    height: 78px;
+    width: 12%;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
 }
 
 

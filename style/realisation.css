@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.texte1{
+    color: black;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.projet1{
+    width: 22%;
+    text-align: center;
+    background-color: brown;
+}
+
+img.Capture1{
+    width: 100%;
+    height: 640px;
+}
+.texte-projet1{
+    width: 22%;
+    background-color: brown;
+}
+.Capture-ecran1{
+    background-color: blue;
+    height: 635px;
+    width: 22%;
+}
+.bloc-projet1{
+    height: 635px;
+    
+}
+
+
+
+

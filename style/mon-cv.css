@@ -4,12 +4,13 @@
     background-position: center; /* Centre l'image de fond */
     height: 100vh; /* Hauteur de 100% de la fenêtre */
     width: 100%; /* Largeur de 100% de la fenêtre */
+    margin: auto;
 }
 h1 {
     text-align: center;
     font-size: 35px;
 }
-h2 {
+h2 , h3 {
     text-align: center;
     font-size: 25px;
 }
@@ -28,7 +29,8 @@ h3 {
     align-content: center;
     height: 40%;
     margin: auto;
-    /*display: flex;*/
+    border-radius: 30px;
+   
 }
 .texte-parcour{
     text-align: center;
@@ -42,6 +44,7 @@ h3 {
     width: 65%;
     padding: 10px;
     margin: auto;
+    border-radius: 30px;
 }
 p.texte-parcour{
     color: black;
@@ -63,23 +66,22 @@ p.texte-formation{
     margin: auto;
     text-align: center;
 }
-.paragraphe-formation{
-    background-color: pink;
+.paragraphe-formation, .paragraphe-qualites,.paragraphe-loisirs {
     width: 65%;
     margin: auto;
     padding: 10px;
+}
+.paragraphe-formation{
+    background-color: pink;
+    border-radius: 30px;
 }
 .paragraphe-qualites{
     background-color: greenyellow;
-    width: 65%;
-    margin: auto;
-    padding: 10px;
+    border-radius: 30px;
 }
 .paragraphe-loisirs{
     background-color: aquamarine;
-    width: 65%;
-    margin: auto;
-    padding: 10px;
+    border-radius: 30px;
 }
 .bloc-loisirs{
     padding: 25px;

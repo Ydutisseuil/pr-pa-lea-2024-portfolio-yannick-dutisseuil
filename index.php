@@ -11,10 +11,10 @@
 <body>
     <nav class="nav">
         <ul>            
-            <li><a href="index.html">Accueil</a></li> 
-            <li><a href="page-contact/contact.php">Contact</a></li>
-            <li><a href="mon-cv.html">Mon-cv</a></li>
-            <li><a href="réalisation.html">réalisation</a></li>
+            <li><a href="index.php">Accueil</a></li> 
+            <li><a href="./page-contact/contact.php">Contact</a></li>
+            <li><a href="./page-cv/mon-cv.php">Mon-cv</a></li>
+            <li><a href="./page-realisation/realisation.php">réalisation</a></li>
         </ul>
     </nav>
     <header class="hero-header">
@@ -112,10 +112,10 @@
     </section>
     <footer>
         <ul>
-            <li><a href="index.html">Accueil</a></li> 
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="mon-cv.html">Mon-cv</a></li>
-            <li><a href="réalisation.html">réalisation</a></li>
+            <li><a href="index.php">Accueil</a></li> 
+            <li><a href="./page-contact/contact.php">Contact</a></li>
+            <li><a href="./page-cv/mon-cv.php">Mon-cv</a></li>
+            <li><a href="./page-realisation/realisation.php">réalisation</a></li>
         </ul>
         <p>
            <br> © 2024 Site-crée-par-Dutisseuil-Yannick<br>
