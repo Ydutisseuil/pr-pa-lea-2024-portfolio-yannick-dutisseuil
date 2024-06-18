@@ -28,9 +28,11 @@ img.Capture1{
     height: 635px;
     width: 22%;
 }
-.bloc-projet1{
-    height: 635px;
-    
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
 }
 
 
