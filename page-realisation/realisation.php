@@ -30,6 +30,7 @@
 <?php
 
 //Connexion
+
 // Paramètres de connexion 
 $serveur = "localhost"; 
 $utilisateur = "root"; 
@@ -37,7 +38,8 @@ $mot_de_passe = "";
 $base_de_donnees = "prepa-lea-2024-portfolio-yannick-dutisseuil";
 
 // Établir la connexion 
- $connexion = mysqli_connect($serveur, $utilisateur,
+
+$connexion = mysqli_connect($serveur, $utilisateur,
 $mot_de_passe, $base_de_donnees);
 
 // Vérifier la connexion 
@@ -48,9 +50,11 @@ if (!$connexion) {
 
 } 
 // Requete SELECT
+
 // Requête d'insertion des données
 $sql = "SELECT * from projets";
 $result = mysqli_query($connexion, $sql);
+
 // Foreach 
  foreach ($result as $row) {
             echo '
@@ -69,7 +73,7 @@ $result = mysqli_query($connexion, $sql);
                 ' . htmlspecialchars($row['texte']) . '
             </p>
             <div class="bouton">
-                <a href="realisation-detail.php?id=' . htmlspecialchars($row['id']) . '">Voir</a>
+                <a href="realisation-detail.php?id=' . htmlspecialchars($row['id']) . '">
                 <input class="bouton-savoir+" type="button" value="En savoir +">
             </div>
         </div>
@@ -78,6 +82,7 @@ $result = mysqli_query($connexion, $sql);
 
 // Fermer la connexion
 mysqli_close($connexion);
+
 ?>
 
     <footer>

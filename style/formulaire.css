@@ -1,59 +1,62 @@
+/*formulaire-container*/
 .formulaire-container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    max-width: 600px;/* Largeur maximale */
+    margin: 50px auto;/*Centrer le conteneur horizontalement et ajouter une marge verticale */
+    padding: 20px;/* Espacement interieur du conteneur */
+    background-color: #f9f9f9; /* Couleur du background */
+    border: 1px solid #ccc;/* Bordure du conteneur */
+    border-radius: 10px;/* Bordure arrondie */
 }
-
+/*h2 du formulaire*/
 .formulaire-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center;/* Centrer le titre */
+    margin-bottom: 20px;/* Marge pour espacer du contenu */
 }
-
+/* Labels du formulaire */
 .formulaire-container label {
-    font-weight: bold;
+    font-weight: bold;/* Mettre en gras */
 }
-
+/* texte du formulaire */
 .formulaire-container input, .formulaire-container textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: calc(100% - 20px);/* Largeur ajustée pour inclure le padding */
+    padding: 10px;/* Espacement entre les champs */
+    margin-top: 5px;/* Marge haute pour espace entre label */
+    margin-bottom: 20px;/* Marge basse pour espace entre les autres éléments */
+    border: 1px solid #ccc;/* Bordure */
+    border-radius: 5px;/* Bordure arrondie */
 }
-
+/* Bouton */
 .formulaire-container input[type="submit"] {
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 100%;/* Largeur du bouton */
+    background-color: #333;/* Couleur de fond du bouton */
+    color: white;/* Couleur du texte du bouton */
+    padding: 10px; /* Espacement dans le bouton */
+    border: none;/* Supprimer la bordure */
+    border-radius: 5px; /* Bordure arrondie du bouton */
+    cursor: pointer;/* Changer le curseur au survol */
 }
-
+/* Effet au survol du bouton */
 .formulaire-container input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #555; /* Changer la couleur de fond du bouton */
 }
+/* Image de fond pour "background-image" */
 .background-image{
-    background-image: url("../images/code-formulaire.jpg");
+    background-image: url("../images/code-formulaire.jpg");/*image*/
     background-size: cover; /* Assure que l'image de fond couvre tout le header */
     background-position: center; /* Centre l'image de fond */
     height: 100vh; /* Hauteur de 100% de la fenêtre */
     width: 100%; /* Largeur de 100% de la fenêtre */
-    margin: auto;
+    margin: auto;/* Centrer l'élément */
 }
+/* liste d'adresses */
 .adresse{
-    list-style: none;
-    background-color:grey;
-    height: 78px;
-    width: 12%;
-    border-radius: 30px;
-    text-align: center;
-    margin: 5px;
+    list-style: none; /* Supprimer les puces des listes */
+    background-color:grey;/* Couleur de fond grise */
+    height: 78px;/* Hauteur fixe */
+    width: 12%;/* Largeur fixe */
+    border-radius: 30px;/* Bordure arrondie */
+    text-align: center;/* Centrer le texte horizontalement */
+    margin: 5px;/* Marge autour de chaque élément */
 }
 
 

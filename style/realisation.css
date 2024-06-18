@@ -1,38 +1,44 @@
+/*h1*/
 h1{
-    text-align: center;
-    font-size: 50px;
+    text-align: center;/* texte centrer*/
+    font-size: 50px;/* hauteure de letre*/
 }
+/*texte1*/
 .texte1{
-    color: black;
-    width: 100%;
-    justify-items: center;
-    text-align: center;
-    padding: 5px;
+    color: black;/* couleur texte*/
+    width: 100%;/* hauteure*/
+    justify-items: center;/* Centre les éléments horizontalement */
+    text-align: center;/*centre le texte*/
+    padding: 5px;/* Ajoute un remplissage interne */
 }
+/*projet1*/
 .projet1{
-    width: 22%;
-    text-align: center;
-    background-color: brown;
+    width: 22%;/*hauteure*/
+    text-align: center;/*centre txte*/
+    background-color: brown;/*couleure de fond*/
 }
-
+/*image-capture*/
 img.Capture1{
-    width: 100%;
-    height: 640px;
+    width: 100%;/*largeure*/
+    height: 640px;/*hauteure*/
 }
+/*texte-projet1*/
 .texte-projet1{
-    width: 22%;
-    background-color: brown;
+    width: 22%;/*largeure*/
+    background-color: brown;/*couleure fond*/
 }
+/*capture-ecran1*/
 .Capture-ecran1{
-    background-color: blue;
-    height: 635px;
-    width: 22%;
+    background-color: blue;/* couleure fond*/
+    height: 635px;/*hauteure*/
+    width: 22%;/*largeure*/
 }
+/*bouton*/
 .bouton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
+    display: flex;/* Utilise flexbox pour le conteneur */
+    justify-content: center;/* Centre les éléments horizontalement */
+    align-items: center;/*centre txte*/
+    height: 30px;/*hauteure*/
 }
 
 
