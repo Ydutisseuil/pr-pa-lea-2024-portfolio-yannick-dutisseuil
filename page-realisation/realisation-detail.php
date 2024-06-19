@@ -26,8 +26,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
 
  // Requête d'insertion des données
- $sql = "SELECT projet1 (id, titre, photo, texte)
- VALUE ($titre, $photo, $texte)";
+ $sql = "SELECT * from projets";
+ $result = mysqli_query($connexion, $sql);
+ 
 
   // Exécution de la requête d'insertion
   mysqli_query($connexion,$sql);
@@ -37,12 +38,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Fermer la connexion
 
 ?>
-
-
-
-
-
-
-
-
-
