@@ -1,0 +1,20 @@
+section.bloc-projet1{
+    background-color: red;
+    width: 30%;
+    height:930px;
+}
+.projet1 ,.Capture-ecran1 , .texte-projet1{
+    width:100% ;
+}
+.bouton-cree{
+    padding: 10px;
+    width: 35%;
+}
+.corbeille{
+    width: 5%;
+    padding: 10px;
+}
+.modif{
+    width: 5%;
+    padding: 10px;
+}
