@@ -1,20 +1,21 @@
-section.bloc-projet1{
-    background-color: red;
-    width: 30%;
-    height:930px;
+/*section bloc-projet1*/
+section.bloc-projet1 {
+    background-color: red;/*couleur fond*/
+    width: 30%;/* largeure*/
+    height:930px;/*hauteure*/
 }
-.projet1 ,.Capture-ecran1 , .texte-projet1{
-    width:100% ;
+/*titre image texte de description*/
+.projet1 , .Capture-ecran1, .texte-projet1 {
+    width:100% ;/*hauteure*/
 }
-.bouton-cree{
-    padding: 10px;
-    width: 35%;
+/*bouton cree*/
+.bouton-cree {
+    padding: 10px;/*espacement*/
+    width: 35%;/*largeure*/
 }
-.corbeille{
-    width: 5%;
-    padding: 10px;
+/* icon corbeille et crayon */
+.corbeille ,.modif {
+    width: 5%;/*largeure*/
+    padding: 10px;/*espacement*/
 }
-.modif{
-    width: 5%;
-    padding: 10px;
-}
+ 

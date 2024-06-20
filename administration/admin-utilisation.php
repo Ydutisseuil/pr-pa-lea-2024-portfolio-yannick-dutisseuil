@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>
-        realisation
+        réalisations
     </h1>
 </body>
 </html>
@@ -66,7 +66,7 @@ $result = mysqli_query($connexion, $sql);
         </div>
         <div>
             <div class="bouton-cree">
-                <input class="bouton-cree" type="button" value="cree">
+                <input class="bouton-cree" type="button" value="crée">
             </div>
             <div class="bouton-effacer">
                 <img class="corbeille" src="../images/effacer.jpg" alt="Effacer" class="buton-image">
