@@ -40,7 +40,9 @@ img.Capture1{
     align-items: center;/*centre txte*/
     height: 30px;/*hauteure*/
 }
-
+.bouton-savoir+{
+    border-radius: 30px;
+}
 
 
 

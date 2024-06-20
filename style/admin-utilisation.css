@@ -12,6 +12,7 @@ section.bloc-projet1 {
 .bouton-cree {
     padding: 10px;/*espacement*/
     width: 35%;/*largeure*/
+    border-radius: 30px;
 }
 /* icon corbeille et crayon */
 .corbeille ,.modif {

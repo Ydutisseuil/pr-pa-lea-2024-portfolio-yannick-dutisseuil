@@ -1,3 +1,36 @@
+<?php
+
+//Connexion
+
+// Paramètres de connexion 
+$serveur = "localhost"; 
+$utilisateur = "root"; 
+$mot_de_passe = "";
+$base_de_donnees = "prepa-lea-2024-portfolio-yannick-dutisseuil";
+
+// Établir la connexion 
+
+$connexion = mysqli_connect($serveur, $utilisateur,
+$mot_de_passe, $base_de_donnees);
+
+// Vérifier la connexion 
+if (!$connexion) { 
+    die("Échec de la connexion : " . mysqli_connect_error());
+} else {
+   // echo "Connexion réussie à la base de données.";
+
+} 
+// Requete SELECT
+
+// Requête d'insertion des données
+$sql = "SELECT * from projets";
+$result = mysqli_query($connexion, $sql);
+
+// Fermer la connexion
+mysqli_close($connexion);
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,63 +60,31 @@
             </h1>
         </div>
     </section>
-<?php
 
-//Connexion
+    <?php '' ?>
+    <?= '' ?>
 
-// Paramètres de connexion 
-$serveur = "localhost"; 
-$utilisateur = "root"; 
-$mot_de_passe = "";
-$base_de_donnees = "prepa-lea-2024-portfolio-yannick-dutisseuil";
-
-// Établir la connexion 
-
-$connexion = mysqli_connect($serveur, $utilisateur,
-$mot_de_passe, $base_de_donnees);
-
-// Vérifier la connexion 
-if (!$connexion) { 
-    die("Échec de la connexion : " . mysqli_connect_error());
-} else {
-   // echo "Connexion réussie à la base de données.";
-
-} 
-// Requete SELECT
-
-// Requête d'insertion des données
-$sql = "SELECT * from projets";
-$result = mysqli_query($connexion, $sql);
-
-// Foreach 
- foreach ($result as $row) {
-            echo '
-
-    <section class="bloc-projet1">
-        <div class="projet1">
-            <h2 class="titre-projet1">
-                ' . htmlspecialchars($row['titre']) . '   
-            </h2>
-        </div>
-        <div class="Capture-ecran1">
-            <img class="Capture1" src="../images/' . htmlspecialchars($row['photo']) . '" alt="image">
-        </div>
-        <div class="texte-projet1">
-            <p class="texte1">
-                ' . htmlspecialchars($row['texte']) . '
-            </p>
-            <div class="bouton">
-                <a href="realisation-detail.php?id=' . htmlspecialchars($row['id']) . '">
-                <input class="bouton-savoir+" type="button" value="En savoir +">
+    <?php foreach ($result as $row): ?>
+        <section class="bloc-projet1">
+            <div class="projet1">
+                <h2 class="titre-projet1">
+                    <?= htmlspecialchars($row['titre']) ?>
+                </h2>
             </div>
-        </div>
-    </section>';
-    }
-
-// Fermer la connexion
-mysqli_close($connexion);
-
-?>
+            <div class="Capture-ecran1">
+                <img class="Capture1" src="../images/' . htmlspecialchars($row['photo']) . '" alt="image">
+            </div>
+            <div class="texte-projet1">
+                <p class="texte1">
+                    <?= htmlspecialchars($row['texte']) ?>
+                </p>
+                <div class="bouton">
+                    <a href="realisation-detail.php?id=<?= htmlspecialchars($row['id']) ?>">
+                    <input class="bouton-savoir" type="button" value="En savoir +">
+                </div>
+            </div>
+        </section>
+    <?php endforeach; ?>
 
     <footer>
         <ul>
