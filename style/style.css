@@ -31,21 +31,22 @@
 .nav ul li a:hover {
     background-color: #555; /* Couleur de fond au survol */
 }
-footer{
+footer {
     background-color: #333333;/* Couleur de fond */
     padding: 10px 0;/* Rembourrage (padding) pour l'espace autour du contenu */
+    height: 72px;
 }
-footer ul li a, li, p{
+footer ul li a, li, p {
     color: #fff;/*couleure fond*/
     margin: 0;/* center*/
 }
-footer ul{
+footer ul {
     width: 5%;/*largeure*/
     float: right;/*a gauche*/
     list-style: none;/*supression liste a puces*/
     margin: 5px;
 }
-footer p{
+footer p {
     text-align: center; /* Centre le contenu du conteneur du paragraphe */
     
 }

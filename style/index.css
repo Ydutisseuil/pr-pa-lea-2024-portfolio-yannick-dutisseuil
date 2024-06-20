@@ -105,7 +105,7 @@ h3 {
     border-radius: 30px;/*coin arrondi*/
 }
 /* texte-experience*/
-.texte-experience{
+.texte-experience {
     background-color: rgb(0, 136, 255);/* couleur fond */
     width: 65%;/*largeure*/
     justify-content: center;/* Centre les éléments horizontalement */
@@ -114,12 +114,12 @@ h3 {
     height: 55%;/*hauteur*/
 }
 /*experience*/
-.experience{
+.experience {
     background-color: rgb(233, 233, 45);/*couleur fond */
     height: 200px;/*hauteur*/
 }
 /*description-experience*/
-.description-experience{
+.description-experience {
     padding: 2%;/* Ajoute un remplissage interne */
 }
 

@@ -1,10 +1,14 @@
+body{
+    background-color: lightgray;
+}
 /*h1*/
-h1{
+h1 {
     text-align: center;/* texte centrer*/
     font-size: 50px;/* hauteure de letre*/
+    text-decoration: underline;
 }
 /*texte1*/
-.texte1{
+.texte1 {
     color: black;/* couleur texte*/
     width: 100%;/* hauteure*/
     justify-items: center;/* Centre les éléments horizontalement */
@@ -12,23 +16,23 @@ h1{
     padding: 5px;/* Ajoute un remplissage interne */
 }
 /*projet1*/
-.projet1{
+.projet1 {
     width: 22%;/*hauteure*/
     text-align: center;/*centre txte*/
     background-color: brown;/*couleure de fond*/
 }
 /*image-capture*/
-img.Capture1{
+img.Capture1 {
     width: 100%;/*largeure*/
     height: 640px;/*hauteure*/
 }
 /*texte-projet1*/
-.texte-projet1{
+.texte-projet1 {
     width: 22%;/*largeure*/
     background-color: brown;/*couleure fond*/
 }
 /*capture-ecran1*/
-.Capture-ecran1{
+.Capture-ecran1 {
     background-color: blue;/* couleure fond*/
     height: 635px;/*hauteure*/
     width: 22%;/*largeure*/
@@ -37,12 +41,18 @@ img.Capture1{
 .bouton {
     display: flex;/* Utilise flexbox pour le conteneur */
     justify-content: center;/* Centre les éléments horizontalement */
-    align-items: center;/*centre txte*/
+    align-items: center;/*centre texte*/
     height: 30px;/*hauteure*/
 }
-.bouton-savoir+{
-    border-radius: 30px;
+/*bouton savoir*/
+.bouton-savoir {
+    border-radius: 30px;/*coin arrondi*/
 }
-
-
+section.bloc-projet1{
+    margin: 5%;
+    width: 30%;
+}
+.projet1 ,.Capture-ecran1 ,.texte-projet1{
+    width: 100%;
+}
 

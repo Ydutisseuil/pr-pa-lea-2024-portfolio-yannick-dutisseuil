@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/realisation.css">
-    <link rel="stylesheet" href="../style/admin-utilisation.css">
-    <title>admin realisation</title>
-</head>
-<body>
-    <h1>
-        réalisations
-    </h1>
-</body>
-</html>
-
 <?php
 
 //Connexion
@@ -42,25 +26,42 @@ if (!$connexion) {
 $sql = "SELECT * from projets";
 $result = mysqli_query($connexion, $sql);
 
-// Foreach 
- foreach ($result as $row) {
-            echo '
+// Fermer la connexion
+mysqli_close($connexion);
+?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/realisation.css">
+    <link rel="stylesheet" href="../style/admin-utilisation.css">
+    <title>admin realisation</title>
+</head>
+<body>
+    <h1>
+        réalisations
+    </h1>
+</body>
+</html>
+
+<?php foreach ($result as $row): ?>
     <section class="bloc-projet1">
         <div class="projet1">
             <h2 class="titre-projet1">
-                ' . htmlspecialchars($row['titre']) . '   
+                <?= htmlspecialchars($row['titre']) ?>   
             </h2>
         </div>
         <div class="Capture-ecran1">
-            <img class="Capture1" src="../images/' . htmlspecialchars($row['photo']) . '" alt="image">
+            <img class="Capture1" src="../images/<?= htmlspecialchars($row['photo']) ?>" alt="image">
         </div>
         <div class="texte-projet1">
             <p class="texte1">
-                ' . htmlspecialchars($row['texte']) . '
+                <?=htmlspecialchars($row['texte'])?> 
             </p>
             <div class="bouton">
-                <a href="realisation-detail.php?id=' . htmlspecialchars($row['id']) . '">
+                <a href="realisation-detail.php?id= <?= htmlspecialchars($row['id'])?>">
                 <input class="bouton-savoir+" type="button" value="En savoir +">
             </div>
         </div>
@@ -75,11 +76,10 @@ $result = mysqli_query($connexion, $sql);
                 <img class="modif" src="../images/edite.jpg" alt="edite" class="buton-image">
             </div>
         </div>    
-    </section>';
-    }
+    </section>
+<?php endforeach; ?>
 
-// Fermer la connexion
-mysqli_close($connexion);
 
-?>
+
+
 

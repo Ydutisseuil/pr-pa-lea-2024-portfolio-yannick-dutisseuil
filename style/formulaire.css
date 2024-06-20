@@ -40,7 +40,7 @@
     background-color: #555; /* Changer la couleur de fond du bouton */
 }
 /* Image de fond pour "background-image" */
-.background-image{
+.background-image {
     background-image: url("../images/code-formulaire.jpg");/*image*/
     background-size: cover; /* Assure que l'image de fond couvre tout le header */
     background-position: center; /* Centre l'image de fond */
@@ -49,7 +49,7 @@
     margin: auto;/* Centrer l'élément */
 }
 /* liste d'adresses */
-.adresse{
+.adresse {
     list-style: none; /* Supprimer les puces des listes */
     background-color:grey;/* Couleur de fond grise */
     height: 78px;/* Hauteur fixe */

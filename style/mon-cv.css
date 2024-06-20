@@ -1,4 +1,4 @@
-.background-bulle{
+.background-bulle {
     background-image: url("../images/bulle.jpg");
     background-size: cover; /* Assure que l'image de fond couvre tout le header */
     background-position: center; /* Centre l'image de fond */
@@ -35,7 +35,7 @@ h3 {
    
 }
 /*texte-parcour*/
-.texte-parcour{
+.texte-parcour {
     text-align: center;/*centre texte*/
     color: black;/*color texte*/
     font-size: 15px;/*hateure de lettre*/
@@ -43,7 +43,7 @@ h3 {
     width: 30%;/*hauteure*/
 }
 /*paragraphe-parcour*/
-.paragraphe-parcour{
+.paragraphe-parcour {
     background-color: aqua;/*couleur de fond*/
     width: 65%;/*hauteure*/
     padding: 10px;/* Ajoute un remplissage interne */
@@ -51,22 +51,22 @@ h3 {
     border-radius: 30px;/* coin arrondis*/
 }
 /*texte-parcour*/
-p.texte-parcour{
+p.texte-parcour {
     color: black;/*couleure texte*/
     width: 70%;/*largeure*/
     margin: auto;/*centrage*/
     text-align: center;/*texte centrer*/
 }
 /*h3*/
-h3.competences{
+h3.competences {
     width: 100%;/*largeure*/
 }
 /*p.ul,li*/
-p.ul,li{
+p.ul,li {
     color: black;/*couleur liste*/
 }
 /*texte-formation*/
-p.texte-formation{
+p.texte-formation {
     color: black;/*couleur texte*/
     width: 60%;/*largeure*/
     height: 35%;/*hauteur*/
@@ -74,28 +74,28 @@ p.texte-formation{
     text-align: center;/*texte centrer*/
 }
 /*paragraphe-formation,qualites,loisir*/
-.paragraphe-formation, .paragraphe-qualites,.paragraphe-loisirs {
+.paragraphe-formation, .paragraphe-qualites, .paragraphe-loisirs {
     width: 65%;/*largeure*/
     margin: auto;/*centrer*/
     padding: 10px;/* Ajoute un remplissage interne */
 }
 /*paragraphe-formation*/
-.paragraphe-formation{
+.paragraphe-formation {
     background-color: pink;/*couleur fond*/
     border-radius: 30px;/*coin arrondi*/
 }
 /*paragraphe-qualites*/
-.paragraphe-qualites{
+.paragraphe-qualites {
     background-color: greenyellow;/*couleur fond*/
     border-radius: 30px;/*coin arrondi*/
 }
 /*paragraphe-loisir*/
-.paragraphe-loisirs{
+.paragraphe-loisirs {
     background-color: aquamarine;/*couleur fond*/
     border-radius: 30px;/*coin arrondis*/
 }
 /*bloc-loisirs*/
-.bloc-loisirs{
+.bloc-loisirs {
     padding: 25px;/* Ajoute un remplissage interne */
 }
 

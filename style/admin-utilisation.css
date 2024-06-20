@@ -3,6 +3,7 @@ section.bloc-projet1 {
     background-color: red;/*couleur fond*/
     width: 30%;/* largeure*/
     height:930px;/*hauteure*/
+    
 }
 /*titre image texte de description*/
 .projet1 , .Capture-ecran1, .texte-projet1 {
@@ -19,4 +20,4 @@ section.bloc-projet1 {
     width: 5%;/*largeure*/
     padding: 10px;/*espacement*/
 }
- 
+
