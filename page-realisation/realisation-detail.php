@@ -4,7 +4,7 @@
 $serveur = "localhost"; 
 $utilisateur = "root"; 
 $mot_de_passe = "";
-$base_de_donnees = "realisations";
+$base_de_donnees = "prepa-lea-2024-portfolio-yannick-dutisseuil";
 
 // Établir la connexion 
  $connexion = mysqli_connect($serveur, $utilisateur,
@@ -16,25 +16,56 @@ if (!$connexion) {
 } else {
    echo "Connexion réussie à la base de données.";
 }
-// Vérification si le formulaire est soumis
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-  // Récupération des données du formulaire
-  $titre = $_POST['titre'];
-  $photo = $_POST['photo'];
-  $texte = $_POST['texte'];
-  
-
  // Requête d'insertion des données
- $sql = "SELECT * from projets";
- $result = mysqli_query($connexion, $sql);
- 
+$sql = "SELECT * from projets";
+$result = mysqli_query($connexion, $sql);
 
   // Exécution de la requête d'insertion
-  mysqli_query($connexion,$sql);
-}
+mysqli_query($connexion,$sql);
 
-
-// Fermer la connexion
-
+  // Fermer la connexion
+mysqli_close($connexion);
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Realisation"content="monter les realisations avec une description">
+    <link rel="stylesheet" href="../style/formulaire.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/realisation.css">
+    <title>Realisation detail</title>
+</head>
+<body>
+  <section>
+      <div>
+          <h1>
+              Réalisations detail:
+          </h1>
+      </div>
+  </section>
+  <?php foreach ($result as $row): ?>
+      <section class="bloc-projet1">
+          <div class="projet1">
+              <h2 class="titre-projet1">
+                  <?= htmlspecialchars($row['titre']) ?>
+              </h2>
+          </div>
+          <div class="Capture-ecran1">
+              <img class="Capture1" src="../images/<?=htmlspecialchars($row['photo']) ?>" alt="image">
+          </div>
+          <div class="texte-projet1">
+              <p class="texte1">
+                  <?= htmlspecialchars($row['texte']) ?>
+              </p>
+              <div class="bouton">
+                  <a href="realisation-detail.php?id=<?= htmlspecialchars($row['id']) ?>">
+                  <input class="bouton-savoir" type="button" value="En savoir +">
+              </div>
+          </div>
+      </section>
+  <?php endforeach; ?>
+</body>
+</html>

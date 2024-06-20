@@ -37,11 +37,11 @@ mysqli_close($connexion);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/realisation.css">
     <link rel="stylesheet" href="../style/admin-utilisation.css">
-    <title>admin realisation</title>
+    <title>admin utilisation</title>
 </head>
 <body>
     <h1>
-        réalisations
+        réalisations admin-utilisation
     </h1>
 </body>
 </html>
