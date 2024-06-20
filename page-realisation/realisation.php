@@ -72,7 +72,7 @@ mysqli_close($connexion);
                 </h2>
             </div>
             <div class="Capture-ecran1">
-                <img class="Capture1" src="../images/' . htmlspecialchars($row['photo']) . '" alt="image">
+                <img class="Capture1" src="../images/<?=htmlspecialchars($row['photo']) ?>" alt="image">
             </div>
             <div class="texte-projet1">
                 <p class="texte1">
