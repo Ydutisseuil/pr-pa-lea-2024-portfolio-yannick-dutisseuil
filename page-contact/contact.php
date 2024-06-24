@@ -1,4 +1,4 @@
-<p?php 
+<?php 
 
 // Paramètres de connexion 
 $serveur = "localhost"; 

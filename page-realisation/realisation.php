@@ -42,7 +42,7 @@ mysqli_close($connexion);
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/realisation.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
     <title>Realisation</title>
 </head>
 <body>
@@ -61,10 +61,7 @@ mysqli_close($connexion);
             </h1>
         </div>
     </section>
-
-    <?php '' ?>
-    <?= '' ?>
-
+    
     <?php foreach ($result as $row): ?>
         <section class="bloc-projet1">
             <div class="projet1">
@@ -87,6 +84,7 @@ mysqli_close($connexion);
         </section>
     <?php endforeach; ?>
 
+   
     <footer>
         <ul>
             <li><a href="../index.php">Accueil</a></li> 
@@ -100,5 +98,15 @@ mysqli_close($connexion);
             e-mail:jesuispasla@introuvable.fr
         </p>
     </footer>
+    
 </body>
 </html>
+
+
+
+
+
+
+
+
+

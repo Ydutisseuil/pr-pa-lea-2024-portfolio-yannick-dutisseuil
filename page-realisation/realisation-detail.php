@@ -1,4 +1,5 @@
 <?php 
+echo $_GET['id'];
 
 // Paramètres de connexion 
 $serveur = "localhost"; 
@@ -17,7 +18,7 @@ if (!$connexion) {
    echo "Connexion réussie à la base de données.";
 }
  // Requête d'insertion des données
-$sql = "SELECT * from projets";
+$sql = "SELECT * from projets WHERE id=" . $_GET['id'];
 $result = mysqli_query($connexion, $sql);
 
   // Exécution de la requête d'insertion

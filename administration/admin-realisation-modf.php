@@ -20,6 +20,11 @@ if (!$connexion) {
 } 
 
 
+// Requête 
+$sql = "SELECT * from projets WHERE id=" . $_GET['id'];
+$result = mysqli_query($connexion, $sql);
+$projet = mysqli_fetch_assoc($result);
+
 // Vérification si le formulaire est soumis
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -27,8 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $titre = $_POST['titre'];
     $photo = $_POST['photo'];
     $texte = $_POST['texte'];
+        
     
-   
     // Requête d'insertion des données
     $sql = "INSERT INTO projets (`titre`,`photo`,`texte`)
     VALUES ('$titre', '$photo', '$texte')";
@@ -50,24 +55,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="icon" href="favicon.ico">
-    <title>admin-realisation-ajout</title>
+    <title>admin-realisation-modif</title>
 </head>
 <body >
     <section>
-            <h2>realisation-ajout</h2>
+        <h2>realisation-modif</h2>
+
+        <?php
+        print_r($projet);
+        ?>
         <form action="" method="post">
             <label for="titre">titre :</label><br>
-            <input type="text" id="titre" name="titre" required><br><br>
+            <input type="text" id="titre" name="titre" required value=""><br><br>
 
             <label for="photo">image :</label><br>
-            <input type="photo" id="photo" name="photo" required><br><br>
+            <input type="photo" id="photo" name="photo" required value=""><br><br>
 
             <label for="texte">description :</label><br>
-            <input type="texte" id="texte" name="texte" required><br><br>
+            <input type="texte" id="texte" name="texte" required value=""><br><br>
 
             <input type="submit" value="Envoyer">
         </form>
 </body>
-
-
-

@@ -1,0 +1,41 @@
+/*formulaire-container*/
+.formulaire-container {
+    max-width: 600px;/* Largeur maximale */
+    margin: 50px auto;/*Centrer le conteneur horizontalement et ajouter une marge verticale */
+    padding: 20px;/* Espacement interieur du conteneur */
+    background-color: #f9f9f9; /* Couleur du background */
+    border: 1px solid #ccc;/* Bordure du conteneur */
+    border-radius: 10px;/* Bordure arrondie */
+}
+/*h2 du formulaire*/
+.formulaire-container h2 {
+    text-align: center;/* Centrer le titre */
+    margin-bottom: 20px;/* Marge pour espacer du contenu */
+}
+/* Labels du formulaire */
+.formulaire-container label {
+    font-weight: bold;/* Mettre en gras */
+}
+/* texte du formulaire */
+.formulaire-container input, .formulaire-container textarea {
+    width: calc(100% - 20px);/* Largeur ajustée pour inclure le padding */
+    padding: 10px;/* Espacement entre les champs */
+    margin-top: 5px;/* Marge haute pour espace entre label */
+    margin-bottom: 20px;/* Marge basse pour espace entre les autres éléments */
+    border: 1px solid #ccc;/* Bordure */
+    border-radius: 5px;/* Bordure arrondie */
+}
+/* Bouton */
+.formulaire-container input[type="submit"] {
+    width: 100%;/* Largeur du bouton */
+    background-color: #333;/* Couleur de fond du bouton */
+    color: white;/* Couleur du texte du bouton */
+    padding: 10px; /* Espacement dans le bouton */
+    border: none;/* Supprimer la bordure */
+    border-radius: 5px; /* Bordure arrondie du bouton */
+    cursor: pointer;/* Changer le curseur au survol */
+}
+/* Effet au survol du bouton */
+.formulaire-container input[type="submit"]:hover {
+    background-color: #555; /* Changer la couleur de fond du bouton */
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/mon-cv.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
     <title>mon cv</title>
 </head>
 <body class="background-bulle">

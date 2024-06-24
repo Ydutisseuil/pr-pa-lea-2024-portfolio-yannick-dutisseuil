@@ -18,28 +18,30 @@ if (!$connexion) {
 
 } 
 
-// Requête d'insertion des données
-$sql = "SELECT * from contact";
-$result = mysqli_query($connexion, $sql);
 
-// Foreach 
-foreach ($result as $contact) {
-    echo ';
-    <div class="">
-        <div class="">
-            <h3>'. $contact['nom'] .'</h3>
-        </div>
-        <div class="">
-            <h3>'. $contact['email'] .'</h3>
-        </div>
-        <div class="">
-            <h3>'. $contact['telephone'] .'</h3>
-        </div>
-        <div class="">
-            <h3>'. $contact['message'] .'</h3>
-        </div>
-    </div>
-';
+if (isset($_GET['id'])) {
+    $id=$_GET['id'];   
+    $req="DELETE FROM `projets` WHERE `id` =".$id;
+    $result=mysqli_query($connexion, $req);
 }
 
+// Requête d'insertion des données
+$sql = "SELECT * from projets";
+$result = mysqli_query($connexion, $sql);
+
+
+
+// Foreach 
+foreach ($result as $projet) {
+   
+    echo ';
+        <div class="">
+            <h3>'. $projet['titre'] .'</h3>
+            <a href="admin-realisation-modf.php?id='. $projet['id'] .'">modifier</a>
+            <a href="admin-liste-realisation.php?id='. $projet['id'] .'">supprimer</a>
+            
+        </div>
+';
+}
+echo '<a href="admin-realisation-ajout.php">ajout</a>';
 
