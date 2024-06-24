@@ -36,6 +36,7 @@ mysqli_close($connexion);
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/realisation.css">
+    <link rel="icon" href="favicon.ico">
     <title>Realisation detail</title>
 </head>
 <body>

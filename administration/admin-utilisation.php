@@ -37,6 +37,7 @@ mysqli_close($connexion);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/realisation.css">
     <link rel="stylesheet" href="../style/admin-utilisation.css">
+    <link rel="icon" href="favicon.ico">
     <title>admin utilisation</title>
 </head>
 <body>

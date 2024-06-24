@@ -6,6 +6,7 @@
     <meta name="Description"content="presentation du portfolio">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="icon" href="favicon.ico">
     <title>Accueil</title>
 </head>
 <body>

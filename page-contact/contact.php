@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../style/formulaire.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/index.css">
+    <link rel="icon" href="favicon.ico">
     <title>contact</title>
 </head>
 <body class="background-image">
