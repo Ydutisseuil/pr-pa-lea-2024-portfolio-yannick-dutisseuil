@@ -29,8 +29,6 @@ if (isset($_GET['id'])) {
 $sql = "SELECT * from projets";
 $result = mysqli_query($connexion, $sql);
 
-
-
 // Foreach 
 foreach ($result as $projet) {
    

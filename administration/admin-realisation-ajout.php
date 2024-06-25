@@ -19,7 +19,6 @@ if (!$connexion) {
 
 } 
 
-
 // Vérification si le formulaire est soumis
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -28,7 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $photo = $_POST['photo'];
     $texte = $_POST['texte'];
     
-   
     // Requête d'insertion des données
     $sql = "INSERT INTO projets (`titre`,`photo`,`texte`)
     VALUES ('$titre', '$photo', '$texte')";

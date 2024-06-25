@@ -20,7 +20,6 @@ if (!$connexion) {
    // echo "Connexion réussie à la base de données.";
 
 } 
-// Requete SELECT
 
 // Requête d'insertion des données
 $sql = "SELECT * from projets";
@@ -61,7 +60,6 @@ mysqli_close($connexion);
             </h1>
         </div>
     </section>
-    
     <?php foreach ($result as $row): ?>
         <section class="bloc-projet1">
             <div class="projet1">
@@ -83,8 +81,6 @@ mysqli_close($connexion);
             </div>
         </section>
     <?php endforeach; ?>
-
-   
     <footer>
         <ul>
             <li><a href="../index.php">Accueil</a></li> 
@@ -98,7 +94,6 @@ mysqli_close($connexion);
             e-mail:jesuispasla@introuvable.fr
         </p>
     </footer>
-    
 </body>
 </html>
 

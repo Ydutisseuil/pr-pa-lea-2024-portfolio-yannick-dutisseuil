@@ -1,6 +1,5 @@
 <?php
  
-
 // Paramètres de connexion 
 $serveur = "localhost"; 
 $utilisateur = "root"; 
@@ -18,7 +17,6 @@ if (!$connexion) {
    // echo "Connexion réussie à la base de données.";
 
 } 
-
 
 // Requête 
 $sql = "SELECT * from projets WHERE id= " .$_GET['id'];
@@ -61,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body >
     <section>
         <h2>realisation-modif</h2>
-
+        
         <form action="" method="post">
             <label for="titre">titre :</label><br>
             <input type="text" id="titre" name="titre" required value="<?php echo $projet['titre']; ?>"><br><br>

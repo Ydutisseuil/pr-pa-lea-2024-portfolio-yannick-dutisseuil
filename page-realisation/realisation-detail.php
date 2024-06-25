@@ -8,7 +8,7 @@ $mot_de_passe = "";
 $base_de_donnees = "prepa-lea-2024-portfolio-yannick-dutisseuil";
 
 // Établir la connexion 
- $connexion = mysqli_connect($serveur, $utilisateur,
+$connexion = mysqli_connect($serveur, $utilisateur,
 $mot_de_passe, $base_de_donnees);
 
 // Vérifier la connexion 
