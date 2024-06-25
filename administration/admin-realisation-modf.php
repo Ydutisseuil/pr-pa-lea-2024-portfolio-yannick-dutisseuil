@@ -61,18 +61,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section>
         <h2>realisation-modif</h2>
 
-        <?php
-        print_r($projet);
-        ?>
         <form action="" method="post">
             <label for="titre">titre :</label><br>
-            <input type="text" id="titre" name="titre" required value=""><br><br>
+            <input type="text" id="titre" name="titre" required value="<?php echo $projet['titre']; ?>"><br><br>
 
             <label for="photo">image :</label><br>
-            <input type="photo" id="photo" name="photo" required value=""><br><br>
+            <input type="photo" id="photo" name="photo" required value="<?php echo $projet['photo']; ?>"><br><br>
 
             <label for="texte">description :</label><br>
-            <input type="texte" id="texte" name="texte" required value=""><br><br>
+            <input type="texte" id="texte" name="texte" required value="<?php echo $projet['texte']; ?>"><br><br>
 
             <input type="submit" value="Envoyer">
         </form>
