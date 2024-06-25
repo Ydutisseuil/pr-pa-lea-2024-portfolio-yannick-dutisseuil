@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Requête d'insertion des données
     $sql = "INSERT INTO projets (`titre`,`photo`,`texte`)
     VALUES ('$titre', '$photo', '$texte')";
-
+    
     // Exécution de la requête d'insertion
     mysqli_query($connexion,$sql);
 }
