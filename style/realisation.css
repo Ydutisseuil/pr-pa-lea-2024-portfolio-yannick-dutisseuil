@@ -1,11 +1,12 @@
+/*body*/
 body{
-    background-color: lightgray;
-    margin: auto;
+    background-color: lightgray;/*couleur fond*/
+    margin: auto;/*marge*/
 }
 /*h1*/
 h1 {
     text-align: center;/* texte centrer*/
-    font-size: 50px;/* hauteure de letre*/
+    font-size: 50px;/* hauteure de lettre*/
     text-decoration: underline;
 }
 /*texte1*/
@@ -18,42 +19,44 @@ h1 {
 }
 /*projet1*/
 .projet1 {
-    width: 22%;/*hauteure*/
-    text-align: center;/*centre txte*/
+    width: 22%;/*hauteur*/
+    text-align: center;/*centre texte*/
     background-color: brown;/*couleure de fond*/
 }
 /*image-capture*/
 img.Capture1 {
-    width: 100%;/*largeure*/
-    height: 640px;/*hauteure*/
+    width: 100%;/*largeur*/
+    height: 640px;/*hauteur*/
 }
 /*texte-projet1*/
 .texte-projet1 {
-    width: 22%;/*largeure*/
-    background-color: brown;/*couleure fond*/
+    width: 22%;/*largeur*/
+    background-color: brown;/*couleur fond*/
 }
 /*capture-ecran1*/
 .Capture-ecran1 {
-    background-color: blue;/* couleure fond*/
-    height: 635px;/*hauteure*/
-    width: 22%;/*largeure*/
+    background-color: blue;/* couleur fond*/
+    height: 635px;/*hauteur*/
+    width: 22%;/*largeur*/
 }
 /*bouton*/
 .bouton {
     display: flex;/* Utilise flexbox pour le conteneur */
     justify-content: center;/* Centre les éléments horizontalement */
     align-items: center;/*centre texte*/
-    height: 30px;/*hauteure*/
+    height: 30px;/*hauteur*/
 }
 /*bouton savoir*/
 .bouton-savoir {
     border-radius: 30px;/*coin arrondi*/
 }
+/*bloc-projet1*/
 section.bloc-projet1{
-    margin: 5%;
-    width: 30%;
+    margin: 5%;/*marge*/
+    width: 30%;/*largeur*/
 }
+/*projet1,capture,texte*/
 .projet1 ,.Capture-ecran1 ,.texte-projet1{
-    width: 100%;
+    width: 100%;/*largeur*/
 }
 

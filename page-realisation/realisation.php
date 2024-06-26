@@ -88,9 +88,9 @@ mysqli_close($connexion);
             <li><a href="../page-realisation/realisation.php">réalisation</a></li>
         </ul>
         <p>
-           <br> © 2024 Site-crée-par-Dutisseuil-Yannick<br>
-            télèphone: 06.02.03.04.05<br>
-            e-mail:jesuispasla@introuvable.fr
+           <p> © 2024 Site-crée-par-Dutisseuil-Yannick</p>
+                    <p> télèphone: 06.02.03.04.05</p>
+           <p> e-mail:jesuispasla@introuvable.fr</p>
         </p>
     </footer>
 </body>

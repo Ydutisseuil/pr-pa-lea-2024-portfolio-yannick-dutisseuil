@@ -99,8 +99,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </ul>
         <p>
            <p> © 2024 Site-crée-par-Dutisseuil-Yannick</p>
-            <p>télèphone: 06.02.03.04.05</p>
-        <p>e-mail:jesuispasla@introuvable.fr</p>
+                    <p>télèphone: 06.02.03.04.05</p>
+            <p>e-mail:jesuispasla@introuvable.fr</p>
         </p>
     </footer>
 </body>

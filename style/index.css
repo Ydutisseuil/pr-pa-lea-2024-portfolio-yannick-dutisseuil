@@ -43,8 +43,8 @@ h2 {
 }
 /* images (élèphant, sql, html, css3, js) */
 .elephant, .sql , .html, .css3, .js {
-    width: 20%;/*largeure*/
-    height: 35%;/*hauteure*/
+    width: 20%;/*largeur*/
+    height: 35%;/*hauteur*/
     border-radius: 30px;/* bord arrondis*/
    
 }
@@ -56,7 +56,7 @@ h3 {
 }
 /* compétences */
 .competances {
-    background-color:orangered;/*cpuleur fond */
+    background-color:orangered;/*couleur fond */
 }
 /* texte technique */
 .texte-technique {
@@ -77,7 +77,7 @@ h3 {
 /*texte-presentation*/
 .texte-presentation {
     background-color: rgb(0, 136, 255);/* fond couleur*/
-    width: 35%;/*largeure*/
+    width: 35%;/*largeur*/
     height: 25%;/*hauteur*/
     display: flex;/* Utilise flexbox pour le conteneur */
     padding: 125px;/* Ajoute un remplissage interne */
@@ -87,7 +87,7 @@ h3 {
 /* photo-texte*/
 .photo-texte {
     display: flex;/* Utilise flexbox pour le conteneur */
-    width: 70%;/*largeure*/
+    width: 70%;/*largeur*/
     justify-content: center; /* Centre les éléments horizontalement */
     padding: 3%;/* Ajoute un remplissage interne */
     margin: auto;/* Centre le conteneur horizontalement */
@@ -95,19 +95,19 @@ h3 {
 }
 /* photo de Yannick */
 .photo-yannick {
-    width: 50%;/*largeure*/
+    width: 50%;/*largeur*/
     
 } 
 /* image de Yannick */
 .yannick {
-    width: 100%;/*largeure*/
-    height: 100%;/*hauteure*/
+    width: 100%;/*largeur*/
+    height: 100%;/*hauteur*/
     border-radius: 30px;/*coin arrondi*/
 }
 /* texte-experience*/
 .texte-experience {
     background-color: rgb(0, 136, 255);/* couleur fond */
-    width: 65%;/*largeure*/
+    width: 65%;/*largeur*/
     justify-content: center;/* Centre les éléments horizontalement */
     margin: auto;/* Centre le conteneur horizontalement */
     border-radius: 10px;/*coin arrondi*/

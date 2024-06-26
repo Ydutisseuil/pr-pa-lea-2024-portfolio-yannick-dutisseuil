@@ -59,7 +59,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body >
     <section>
         <h2>realisation-modif</h2>
-        
         <form action="" method="post">
             <label for="titre">titre :</label><br>
             <input type="text" id="titre" name="titre" required value="<?php echo $projet['titre']; ?>"><br><br>

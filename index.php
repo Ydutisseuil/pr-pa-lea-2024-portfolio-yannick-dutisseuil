@@ -20,8 +20,12 @@
     </nav>
     <header class="hero-header">
         <div class="hero-content">
-            <h1>Dutisseuil Yannick</h1>
-            <p>Developpeur Web</p>
+            <h1>
+                Dutisseuil Yannick
+            </h1>
+            <p>
+                Developpeur Web
+            </p>
         </div>
     </header>
     <section class="section-presentation">

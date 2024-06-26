@@ -1,5 +1,6 @@
+/*fond image cv*/
 .background-bulle {
-    background-image: url("../images/bulle.jpg");
+    background-image: url("../images/bulle.jpg");/*image fond */
     background-size: cover; /* Assure que l'image de fond couvre tout le header */
     background-position: center; /* Centre l'image de fond */
     height: 100vh; /* Hauteur de 100% de la fenêtre */
@@ -9,24 +10,24 @@
 /*h1*/
 h1 {
     text-align: center;/*centre texte*/
-    font-size: 35px;/*hauteure letres*/
+    font-size: 35px;/*hauteur lettre*/
 }
 /*h2,h3*/
 h2 , h3 {
     text-align: center;/*centre texte*/
-    font-size: 25px;/*hauteure letres*/
+    font-size: 25px;/*hauteur lettre*/
 }
 /*h3*/
 h3 {
     text-align: center;/*centre texte*/
-    font-size: 25px;/*hauteure letres*/
+    font-size: 25px;/*hauteur lettre*/
 }
 /*texte-competences*/
 .texte-competences {
     background-color: rgb(255, 102, 0);/*fond de couleur*/
-    font-size: 20px;/*hauteure letres*/
-    width: 60%;/*largeure*/
-    color: black;/*couleur letre*/
+    font-size: 20px;/*hauteur lettre*/
+    width: 60%;/*largeur*/
+    color: black;/*couleur lettre*/
     padding: 60px;/* Espacement dans le bouton */
     align-content: center;/*centre texte*/
     height: 40%;/*hauteur */
@@ -38,28 +39,28 @@ h3 {
 .texte-parcour {
     text-align: center;/*centre texte*/
     color: black;/*color texte*/
-    font-size: 15px;/*hateure de lettre*/
+    font-size: 15px;/*hauteur de lettre*/
     text-align:left;/*texte a droite*/
-    width: 30%;/*hauteure*/
+    width: 30%;/*hauteur*/
 }
 /*paragraphe-parcour*/
 .paragraphe-parcour {
     background-color: aqua;/*couleur de fond*/
-    width: 65%;/*hauteure*/
+    width: 65%;/*hauteur*/
     padding: 10px;/* Ajoute un remplissage interne */
     margin: auto;/*centrer*/
     border-radius: 30px;/* coin arrondis*/
 }
 /*texte-parcour*/
 p.texte-parcour {
-    color: black;/*couleure texte*/
-    width: 70%;/*largeure*/
+    color: black;/*couleur texte*/
+    width: 70%;/*largeur*/
     margin: auto;/*centrage*/
     text-align: center;/*texte centrer*/
 }
 /*h3*/
 h3.competences {
-    width: 100%;/*largeure*/
+    width: 100%;/*largeur*/
 }
 /*p.ul,li*/
 p.ul,li {
@@ -68,14 +69,14 @@ p.ul,li {
 /*texte-formation*/
 p.texte-formation {
     color: black;/*couleur texte*/
-    width: 60%;/*largeure*/
+    width: 60%;/*largeur*/
     height: 35%;/*hauteur*/
     margin: auto;/*centrer*/
     text-align: center;/*texte centrer*/
 }
 /*paragraphe-formation,qualites,loisir*/
 .paragraphe-formation, .paragraphe-qualites, .paragraphe-loisirs {
-    width: 65%;/*largeure*/
+    width: 65%;/*largeur*/
     margin: auto;/*centrer*/
     padding: 10px;/* Ajoute un remplissage interne */
 }
@@ -92,7 +93,7 @@ p.texte-formation {
 /*paragraphe-loisir*/
 .paragraphe-loisirs {
     background-color: aquamarine;/*couleur fond*/
-    border-radius: 30px;/*coin arrondis*/
+    border-radius: 30px;/*coin arrondi*/
 }
 /*bloc-loisirs*/
 .bloc-loisirs {

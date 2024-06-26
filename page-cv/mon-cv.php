@@ -62,10 +62,9 @@
             </div>
             <div class="paragraphe-parcour">
                 <p class="texte-parcour">
-                        ACTUELLEMENT EN FORMATION AU TITRE PROFESSIONNEL
-                        DÉVELOPPEUR WEB ET WEB MOBILE À L’ÉCOLE ATYPIQUE :
-                        ACQUISITION DES FONDAMENTAUX DU WEB
-                    
+                    ACTUELLEMENT EN FORMATION AU TITRE PROFESSIONNEL
+                    DÉVELOPPEUR WEB ET WEB MOBILE À L’ÉCOLE ATYPIQUE :
+                    ACQUISITION DES FONDAMENTAUX DU WEB
                     <ul class="liste-parcour">
                         <li>gestion plannings, facturation et devis
                         <li>gestion du personnel et relationnel clientèle</li>
