@@ -64,7 +64,6 @@ mysqli_close($connexion);
               </p>
               <div class="bouton">
                   <a href="realisation-detail.php?id=<?= htmlspecialchars($row['id']) ?>">
-                  <input class="bouton-savoir" type="button" value="En savoir +">
               </div>
           </div>
       </section>

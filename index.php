@@ -41,7 +41,7 @@
             <div class="texte-presentation">
                 <p class="presentation">
                     Bonjour, je m'appelle Yannick Dutisseuil,
-                    développeur web en pré-qualification pourune formation de développeur web et web mobile
+                    développeur web en pré-qualification pour une formation de développeur web et web mobile
                     J'ai acquis des compétences essentielles telles que l'organisation, l'écoute, 
                     le conseil, et le relationnel, qui sont toutes cruciales dans ce domaine.
                     Actuellement, je suis une formation de pré-qualification à l'École Atypique pour 

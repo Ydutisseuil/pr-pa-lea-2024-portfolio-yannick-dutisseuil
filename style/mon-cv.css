@@ -33,7 +33,6 @@ h3 {
     height: 40%;/*hauteur */
     margin: auto;/* Centrer l'élément */
     border-radius: 30px;/*bord arrondi*/
-   
 }
 /*texte-parcour*/
 .texte-parcour {
@@ -82,17 +81,18 @@ p.texte-formation {
 }
 /*paragraphe-formation*/
 .paragraphe-formation {
-    background-color: pink;/*couleur fond*/
-    border-radius: 30px;/*coin arrondi*/
+    background-color: pink;/*couleur fond*/  
 }
 /*paragraphe-qualites*/
 .paragraphe-qualites {
     background-color: greenyellow;/*couleur fond*/
-    border-radius: 30px;/*coin arrondi*/
 }
 /*paragraphe-loisir*/
 .paragraphe-loisirs {
     background-color: aquamarine;/*couleur fond*/
+}  
+/*paragraphe formation, qualites, loisirs*/  
+.paragraphe-formation, .paragraphe-qualites, .paragraphe-loisirs{
     border-radius: 30px;/*coin arrondi*/
 }
 /*bloc-loisirs*/
