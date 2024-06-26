@@ -21,10 +21,10 @@ if (!$connexion) {
 $sql = "SELECT * from projets WHERE id=" . $_GET['id'];
 $result = mysqli_query($connexion, $sql);
 
-  // Exécution de la requête d'insertion
+// Exécution de la requête d'insertion
 mysqli_query($connexion,$sql);
 
-  // Fermer la connexion
+// Fermer la connexion
 mysqli_close($connexion);
 ?>
 <!DOCTYPE html>
